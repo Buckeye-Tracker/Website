@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Buckeye Tracker</title>
-    <!-- <link rel="stylesheet" href="./style.css"> -->
-    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon"> -->
-</head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
 
-<body>
+  <body class="p-10">
     <main>
-        <h1>Buckeye Tracker</h1>
+      <div class="text-5xl">
+        <span>It's been </span>
+        <span class="font-bold">
+          <span id="days-since-won"></span>
+        </span>
+        <span>
+          <a href="asterisk.html" class="text-blue-600 hover:text-blue-800"
+            >*
+          </a>
+        </span>
+        <span> since ❌ichigan beat Ohio State.</span>
+      </div>
+      <br /><br />
+      <div class="text-5xl">
+        <span>It's been </span>
+        <span class="font-bold">
+          <span id="days-since-won-columbus"></span>
+        </span>
+        <span
+          ><a href="asterisk.html" class="text-blue-600 hover:text-blue-800"
+            >*</a
+          ></span
+        >
+        <span> since ❌ichigan beat Ohio State in Columbus.</span>
+      </div>
+      <br /><br />
+      <div class="text-5xl">
+        <span>The Game is in </span>
+        <span class="font-bold">
+          <span id="days-until-game"></span>
+        </span>
+      </div>
+      <br /><br />
+      <img src="image-1.jpg" />
     </main>
-    <!-- <script src="index.js"></script> -->
-</body>
-
+  </body>
 </html>
